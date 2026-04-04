@@ -7,13 +7,11 @@
 body {
     margin: 0;
     font-family: "IBM Plex Sans Arabic", sans-serif;
-    /* direction: rtl; */
     background-color: #f5f7f9;
 }
 
-h1,p {
+h1,p,h5,h6 {
     margin: 0;
-    /* padding: 0; */
 }
 
 .body-container {
@@ -62,10 +60,10 @@ nav {
 .nav-content p {
     font-weight: 600;
     font-size: 14px;
-    color:oklch(0.373 0.034 259.733);
+    color: oklch(0.373 0.034 259.733);
 }
- 
-.nav-items{
+
+.nav-items {
     text-align: right;
     margin-bottom: 24px;
     margin-right: 20px;
@@ -77,17 +75,20 @@ nav {
     font-weight: 600;
     font-size: 16px;
 }
-.nav-items2{
-     font-weight: 500;
+
+.nav-items2 {
+    font-weight: 500;
     font-size: 14px;
     color: rgb(17, 24, 39);
 }
-.nav-p{
+
+.nav-p {
     text-align: right;
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 14px;
 }
+
 .nav-items-img {
     width: 40px;
     height: 40px;
@@ -95,6 +96,7 @@ nav {
     margin-left: 10px;
     position: relative;
 }
+
 .nav-items2-img {
     background-color: #F3F4F6;
     width: 45px;
@@ -105,26 +107,19 @@ nav {
     border: 1px solid rgb(204, 204, 204);
     position: relative;
 }
+
 .nav-items-img img {
     width: 53%;
     margin: 10px 11px;
 }
-.blue .nav-items{
+
+.blue .nav-items {
     background-color: #EFF6FF;
     border-radius: 10px;
     color: #2B51F2;
-    height:50px;
+    height: 50px;
     padding: 0;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -180,8 +175,8 @@ header {
 .header-content p {
     font-weight: 600;
     font-size: 14px;
-    color:oklch(0.446 0.03 256.802);
-    
+    color: oklch(0.446 0.03 256.802);
+
 }
 
 .icon button {
@@ -284,48 +279,203 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    height: 100vh;
-
-}
+.container {}
 
 .content {
     margin-bottom: 15px;
+    text-align: right;
+    border-radius: 20px;
+    background-color: #FCFCFE;
+    border: 1px solid rgba(0, 128, 0, 0.234);
+    box-shadow: 1px 1px #d1cfcf;
+
 }
 
-.content-1 {
-    background-color: blueviolet;
+.content-body {
+    margin: 20px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 14px;
+        color: oklch(0.446 0.03 256.802);
+    }
+
+    span {
+        font-weight: 600;
+        font-size: 14px;
+        color: oklch(0.627 0.194 149.214);
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .red2 {
+        color: red;
+    }
 }
 
-.content-2 {
-    background-color: rgb(226, 43, 131);
+.content-2 img {
+    transform: rotate(180deg);
 }
 
-.content-3 {
-    background-color: rgb(226, 43, 76);
+.content-3 img {
+    transform: rotate(180deg);
 }
 
 .content-4 {
     background-color: rgb(43, 226, 76);
+
 }
 
 .content-5 {
-    background-color: rgb(114, 128, 129);
+
+
+    h3 {
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        color:
+            oklch(0.488 0.243 264.376);
+        text-align: center;
+    }
+
+    .activities {
+        border-bottom: 1px solid rgb(199, 195, 195);
+        margin-bottom: 15px;
+
+    }
+
+    .activity-1 {
+        height: 100px;
+        background-color: #EFF6FF;
+        border-radius: 20px;
+        box-shadow: -8px 0 1px #2B7FFF;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+
+        img {
+            width: 25px;
+            margin-right: 5px;
+            margin-top: 5px;
+        }
+
+        .activity1-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #DBEAFE;
+            margin-right: 10px;
+            margin-top: 5px;
+             margin-bottom: 35px;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: 12px;
+            color: oklch(0.446 0.03 256.802);
+        }
+
+        .activity1-body p {
+            font-weight: 600;
+            font-size: 12px;
+            color: oklch(0.551 0.027 264.364);
+            margin-top: 10px;
+            text-align: right;
+            
+        }
+        .activity1-body{
+            margin-right: 20px;
+        }
+        .activity1-span{
+            color: #2B7FFF;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+    }
+
+    .activity-2 {
+        height: 100px;
+        background-color: #F0FDF4;
+        border-radius: 20px;
+        box-shadow: -8px 0 1px #00C950;
+        margin-bottom: 10px;
+         display: flex;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+
+        img {
+            width: 25px;
+            margin-right: 7px;
+            margin-top: 5px;
+        }
+
+        .activity2-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #DBEAFE;
+            margin-right: 10px;
+            margin-top: 5px;
+             margin-bottom: 35px;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: 12px;
+            color: oklch(0.446 0.03 256.802);
+        }
+
+        .activity2-body p {
+            font-weight: 600;
+            font-size: 12px;
+            color: oklch(0.551 0.027 264.364);
+            margin-top: 10px;
+            text-align: right;
+            
+        }
+        .activity2-body{
+            margin-right: 20px;
+        }
+        .activity2-span{
+            color: green;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+    }
 }
 
 .content-6 {
     background-color: rgb(36, 9, 61);
+    /* width: 30%; */
 }
 
 .content-7 {
@@ -436,11 +586,15 @@ header {
         margin-left: 320px;
     }
 
+    .body-container {
+        /* width: 84%; */
+    }
+
     .container {
         width: 84%;
         display: grid;
         gap: 15px 15px;
-        height: 150vh;
+        /* height: 150vh; */
         grid-template-areas:
             "content-1 content-2 content-3 "
             "content-4 content-4 content-5 "
@@ -463,14 +617,17 @@ header {
 
     .content-4 {
         grid-area: content-4;
+        /* width: 56%; */
     }
 
     .content-5 {
         grid-area: content-5;
+        /* width: 28%; */
     }
 
     .content-6 {
         grid-area: content-6;
+        /* width: 28%; */
     }
 
     .content-7 {
