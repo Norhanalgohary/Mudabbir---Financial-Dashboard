@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: "IBM Plex Sans Arabic", sans-serif;
     background-color: #f5f7f9;
+    
 }
 
 h1,p,h5,h6 {
@@ -138,6 +139,10 @@ header {
     background-color: #FCFCFE;
     border: 1px solid rgba(0, 128, 0, 0.234);
     box-shadow: 1px 1px #d1cfcf;
+    /* position: absolute;
+    top: 5px;
+    right: 0px;
+    left: 0px; */
 }
 
 .icon {
@@ -834,19 +839,68 @@ header {
 
 
 
-@media screen and (min-width:768px) and (max-width:1280px) {
+/* @media screen and (min-width:768px) and (max-width:1280px) {
     nav {
         visibility: visible;
-        background-color: #FCFCFE;
+        background-color: #1f1fa9;
         position: fixed;
         right: 0;
         top: 0;
         bottom: 0;
-        width: 8%;
+        width: 6%;
+        z-index: 100;
+
     }
+    .nav-items {
+    text-align: right;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: oklch(0.446 0.03 256.802);
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-items2 {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(17, 24, 39);
+    margin-bottom: 40px;
+}
+
+.nav-p {
+    text-align: right;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+    .nav-items p{
+        visibility: hidden;
+    }
+    .nav-content{
+        visibility: hidden;
+    }
+    .nav-p{
+        visibility: hidden;
+    }
+    .nav-items-img {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.nav-items-img img {
+    width: 83%;
+    margin: 10px 11px;
+}
 
     .container {
-        width: 92%;
+        margin-right: 270px;
+        width: 85%;
         height: 150vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -856,9 +910,13 @@ header {
         grid-auto-flow: row;
         grid-template-areas:
             "content-1 content-2 content-3"
+            "content-8 . content-5"
             "content-4 . content-5"
+            "content-4 content-4 content-4"
             "content-6 content-6 content-6"
+            "content-6 . content-9"
             "content-7 . content-8"
+             "content-7 . content-10"
             "content-9 . content-10";
     }
 
@@ -876,6 +934,7 @@ header {
 
     .content-4 {
         grid-area: content-4;
+        justify-self: stretch;
     }
 
     .content-5 {
@@ -906,7 +965,7 @@ header {
         width: 92%;
         margin-bottom: 20px;
     }
-}
+} */
 
 
 
